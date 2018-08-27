@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.dcc</groupId>
-    <artifactId>zk-test</artifactId>
+    <artifactId>zk-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
 
@@ -26,6 +26,13 @@
             <groupId>com.github.sgroschupf</groupId>
             <artifactId>zkclient</artifactId>
             <version>0.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.curator/curator-recipes -->
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>4.0.1</version>
         </dependency>
 
     </dependencies>
