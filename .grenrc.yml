@@ -1,0 +1,16 @@
+---
+  dataSource: "milestones"
+  prefix: ""
+  ignoreLabels: 
+    - "bug"
+    - "dependencies"
+    - "duplicate"
+    - "enhancement"
+    - "good first issue"
+    - "help wanted"
+    - "invalid"
+    - "question"
+    - "wontfix"
+  groupBy: false
+  milestoneMatch: "Release {{tag_name}}"
+  changelogFilename: "CHANGELOG.md"
